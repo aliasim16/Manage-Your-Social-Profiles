@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@500&display=swap');
+
+:root{
+    --text-color-active:#2A3126;
+    --text-color-passive:#757A72;
+    --navbar-button-background:#357EC7;
+}
+
+[data-theme]{
+    --text-color-active:#FFF;
+}
+
+.navbar_container{
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.navbar_row{
+    height: 100px;
+}
+
+.middle_section nav {
+    display: flex;
+    justify-content: center;
+}
+
+.middle_section nav ul {
+    list-style-type:none;   
+    display: flex;
+    gap: 55px; 
+}
+
+.middle_section nav ul li{
+    display: inline-block;
+    list-style: none ;
+    /* margin-left: 2rem; */
+    text-align: center
+}
+
+.middle_section ul li a{   
+    text-decoration-line:none;
+    text-decoration: none;
+    color: var(--text-color-passive);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.middle_section #home{
+    color: var(--text-color-active);
+}
+
+.buttons-section{
+    display: flex;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.icon img{
+    z-index: 1;
+}
+
+.buttons-section #lets-talk{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 30px;
+    background: var(--navbar-button-background);
+    border: none;
+    padding: 0px 23px;
+    gap: 10px;
+    height: 50px;   
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@500&display=swap');
+
+:root{
+    --header-background-green:#E2F5D8;
+    --header-green: #A0CB8A;
+    --header:#2A3126;
+    --lightTheme-header:#2A3126;
+    --paragraph:#757A72;
+    --button-background:#E2F1FF;
+    --blue_box:#357EC7;
+    --white:#FFF;
+    --yellow:#FED917;
+}
+[data-theme]{
+    --lightTheme-header:#007DC0;
+    --paragraph:#757A72;
+    --button-background:#E2F1FF;
+    --blue_box:#357EC7;
+    --white:#FFF;
+    --yellow:#FED917;
+    --header-background-green:#E2F5D8;
+    --header-green: #A0CB8A;
+    --header:#2A3126;
+}
+
+.channels_container{
+    margin-top: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.channels_header {
+    text-align: center;
+}
+
+.channels_header .header_h1{
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 30px;
+    background-color: var(--header-background-green);
+}
+
+.channels_header .header_h1 h1 {
+    color: var(--header-green);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.channels_header > h1 {
+    color: var( --lightTheme-header);
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.channels_header p {
+    color: var(--paragraph);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.svg_line{
+    position: relative;
+}
+
+.tiktok{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #2A3126;
+    box-shadow: 0px 15px 26px 0px #959596;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #357EC7;
+    box-shadow: 0px 15px 26px 0px #87B5E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.snapchat{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: var(--yellow);
+    box-shadow: 0px 15px 26px 0px #FEEE9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.channels_logos .twitter{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #3CF;
+    box-shadow: 0px 15px 26px 0px #87B5E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

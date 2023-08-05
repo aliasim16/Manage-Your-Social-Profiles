@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@500&display=swap');
+
+:root{
+    --header-background-green:#E2F5D8;
+    --header-green: #A0CB8A;
+    --header:#2A3126;
+    --lightTheme-header:#2A3126;
+    --paragraph:#757A72;
+    --button-background:#E2F1FF;
+    --blue_box:#357EC7;
+}
+
+[data-theme]{
+    --lightTheme-header:#007DC0;
+    --paragraph:#757A72;
+    --button-background:#E2F1FF;
+    --blue_box:#357EC7;
+    --white:#FFF;
+    --yellow:#FED917;
+    --header-background-green:#E2F5D8;
+    --header-green: #A0CB8A;
+    --header:#2A3126;
+}
+
+.services_container{
+    margin-top: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.services_left_side .orange_img  {
+    border-radius: 20px;
+    margin-top: 197px;
+}
+
+.services_left_side .instagram_img  {
+    border-radius: 20px;
+    margin-bottom:207px ;
+}
+
+.services_right_side .header {
+    border-radius: 30px;
+    background:var(--header-background-green) ;
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.services_right_side .header #first_h1{
+    color: var(--header-green);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.services_right_side > h1{
+    color: var(--lightTheme-header);
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    
+}
+.services_right_side p{
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 18px;
+    color:var(--paragraph) ;
+
+}
+
+
+.services_right_side button{
+    border-radius: 90px;
+    background: var(--button-background);
+    color: var(--header);
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.services_right_side button .blue_box {
+    width: 12px;
+    height: 12px;
+    background-color: var(--blue_box);
+    
+}
+
+
+

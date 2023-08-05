@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@500&display=swap');
+
+:root{
+    --header-background-green:#E2F5D8;
+    --header-green: #A0CB8A;
+    --header:#2A3126;
+    --lightTheme-black-header:#2A3126;
+    --paragraph:#757A72;
+    --button-background:#E2F1FF;
+    --blue_box:#357EC7;
+    --white:#FFF;
+    --yellow:#FED917;
+}
+
+
+.rectangle_container{
+    margin-top: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.rectangle{
+    position: relative;
+    border-radius: 30px;
+    background-color: var(--lightTheme-black-header);
+    width: 100%;
+}
+
+.rectangle h1{
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: 112px;
+
+}
+
+.rectangle_container .lets-talk{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+}
+
+.rectangle_container #lets-talk{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    border-radius: 30px;
+    background: var(--navbar-button-background);
+    border: none;
+    padding: 0px 23px;
+    gap: 10px;
+    height: 50px;
+    margin-bottom:111px ;
+}
+
+.object_1{
+    position: absolute;
+    top: 114px;
+    left: 43px;
+    bottom: 278px;
+    right: 1173px;
+}
+.object_2{
+    position: absolute;
+    top: 182px;
+    left: 220px;
+    bottom: 225px;
+    right: 1002px;
+}
+.object_3{
+    position: absolute;
+    top: 281px;
+    left: 275px;
+    bottom: 105px;
+    right: 938px;
+}
+.object_4{
+    position: absolute;
+    top: 313px;
+    left: 744px;
+    bottom: 65px;
+    right: 464px;
+}
+.object_5{
+    position: absolute;
+    top: 101px;
+    left: 1058px;
+    bottom: 289px;
+    right: 157px;
+}
+.object_6{
+    position: absolute;
+    top: 307px;
+    left: 1113px;
+    bottom: 89px;
+    right: 106px;
+}
+
+.instagram{
+    position: absolute;
+    top: 254px;
+    left: 975px;
+    bottom: 74.78px;
+    right: 168.78px;
+
+}
+.twitter  {
+    position:absolute;
+    top: 238px;
+    left: 114px;
+    bottom: 90.46px;
+    right: 1029.46px;
+}
+
+
+
