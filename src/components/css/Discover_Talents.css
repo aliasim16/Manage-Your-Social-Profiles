@@ -11,7 +11,7 @@
     --white:#FFF;
 }
 
-[data-theme]{
+[data-theme="dark"]{
     --lightTheme-header:#007DC0;
     --header-background-green:#E2F5D8;
     --header-green: #A0CB8A;

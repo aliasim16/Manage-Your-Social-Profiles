@@ -1,6 +1,8 @@
 import "../components/css/Logo.css";
+import { useEffect, useState } from "react"
 
 function Logo(props) {
+
   return (
     <>
     <div className="container container_logo ">

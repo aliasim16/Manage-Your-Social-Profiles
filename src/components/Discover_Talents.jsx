@@ -1,10 +1,18 @@
 import "../components/css/Discover_Talents.css"
+import { useEffect, useState } from "react"
 
 
 function Discover_Talents(props) {
+    
+    const [theme, setTheme] = useState(
+        localStorage.getItem("theme") ||
+        document.documentElement.dataset.bsTheme || 
+        "light"
+    )
+
   return (
     <>
-      <div className="container discover_talents_container ">
+      <div className="container discover_talents_container " data-theme={theme}>
         <div className="row">
             <div className=" col-sm discover_talents_header">
                 <h1>

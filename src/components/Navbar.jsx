@@ -1,12 +1,17 @@
 import React from "react";
 import "../components/css/Navbar.css";
+import { useEffect, useState } from "react"
 
 function Navbar(props) {
-
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ||
+    document.documentElement.dataset.bsTheme || 
+    "light"
+)
   return (
     <>
       <nav>
-        <div className="container navbar_container " >
+        <div className="container navbar_container " data-theme={theme}>
           <div className="row navbar_row ">
           <div className="col-sm-1 logo">
             <img src="Images\Home_images\a2f7081c7320309befdbd8aec1409786.png" alt="" />

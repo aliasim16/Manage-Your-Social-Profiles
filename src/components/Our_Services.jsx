@@ -1,9 +1,15 @@
 import "../components/css/Our_Services.css"
+import { useEffect, useState } from "react"
 
 function Our_services(props) {
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ||
+    document.documentElement.dataset.bsTheme || 
+    "light"
+)
   return (
     <>
-      <div className="container our_services_container " >
+      <div className="container our_services_container " data-theme={theme} >
         <div className="row">
           <div className="our_services_header">
             <div className="header">

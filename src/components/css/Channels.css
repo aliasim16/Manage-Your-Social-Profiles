@@ -11,7 +11,7 @@
     --white:#FFF;
     --yellow:#FED917;
 }
-[data-theme]{
+[data-theme="dark"]{
     --lightTheme-header:#007DC0;
     --paragraph:#757A72;
     --button-background:#E2F1FF;

@@ -10,7 +10,7 @@
     --white:#FFF;
     --yellow:#FED917;
 }
-[data-theme]{
+[data-theme="dark"]{
     --lightTheme-header:#007DC0;
     --header:#2A3126;
     --paragraph:#757A72;

@@ -1,9 +1,16 @@
 import "../components/css/Engagement.css"
+import { useEffect, useState } from "react"
 
 function Engagement(props) {
+    const [theme, setTheme] = useState(
+        localStorage.getItem("theme") ||
+        document.documentElement.dataset.bsTheme || 
+        "light"
+    )
+    
   return (
     <>
-    <div className="container engagement_container" >
+    <div className="container engagement_container"data-theme={theme} >
         <div className="row">
             <div className="row first_row">
                 <div className="col-sm">

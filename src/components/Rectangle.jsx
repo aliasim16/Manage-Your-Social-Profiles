@@ -1,6 +1,8 @@
 import "../components/css/Rectangle.css"
+import { useEffect, useState } from "react"
 
 function Rectangle(props) {
+
   return (
     <>
     <div className="container rectangle_container " >
