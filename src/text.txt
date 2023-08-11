@@ -1,0 +1,7 @@
+/* :root {
+    --background: linear-gradient(137deg, #EBF4FD 0%, #FFF 100%);
+}
+
+[data-theme='dark'] {
+    --background:linear-gradient(137deg, #342E36 0%, #131D0E 100%);
+} */

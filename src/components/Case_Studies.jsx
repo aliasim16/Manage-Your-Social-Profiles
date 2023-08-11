@@ -2,14 +2,10 @@ import "../components/css/Case_Studies.css"
 import { useEffect, useState } from "react"
 
 function Case_Studies(props) {
-    const [theme, setTheme] = useState(
-        localStorage.getItem("theme") ||
-        document.documentElement.dataset.bsTheme || 
-        "light"
-    )
+    
   return (
     <>
-        <div className="container case_studies_contianer"  data-theme={theme}>
+        <div className="container case_studies_contianer"  data-theme={props.theme}>
             <div className="row">
                 <div className="row">
                     <div className="col-sm case_studies_text "  >

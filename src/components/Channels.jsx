@@ -3,15 +3,10 @@ import { useEffect, useState } from "react"
 
 function Channels(props) {
   
-  const [theme, setTheme] = useState(
-      localStorage.getItem("theme") ||
-      document.documentElement.dataset.bsTheme || 
-      "light"
-  )
 
   return (
     <>
-      <div className="container channels_container " data-theme={theme} >
+      <div className="container channels_container " data-theme={props.theme} >
         <div className="row">
           <div className="col-sm channels_header">
               <div className="header_h1">

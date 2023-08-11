@@ -66,8 +66,9 @@
 }
 
 
-.talents_column.image  img {
+.image  img {
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 .talents_column h1{

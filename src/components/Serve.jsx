@@ -2,15 +2,11 @@ import "../components/css/Serve.css"
 import { useEffect, useState } from "react"
 
 function Serve(props) {
-    const [theme, setTheme] = useState(
-        localStorage.getItem("theme") ||
-        document.documentElement.dataset.bsTheme || 
-        "light"
-    )
+    
   return (
     
     <>
-    <div className="container serve_container "data-theme={theme} >
+    <div className="container serve_container "data-theme={props.theme} >
         <div className="row">
         <div className="col-sm serve_header">
             <h1>

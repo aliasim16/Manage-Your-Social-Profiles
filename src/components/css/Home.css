@@ -14,7 +14,7 @@
 }
 
 [data-theme='dark'] {
-    --lightTheme-header:#2A3126;
+    --lightTheme-header:#007DC0;
     --paragraph:#757A72;
     --button-background:#E2F1FF;
     --blue_box:#357EC7;
@@ -24,7 +24,7 @@
     --home-button-background:#357EC7;
     --header-background-green:#E2F5D8;
     --header-green: #A0CB8A;
-    --black:
+    --black:#000;
 }
 
 

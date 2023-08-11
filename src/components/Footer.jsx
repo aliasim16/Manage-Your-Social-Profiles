@@ -3,14 +3,9 @@ import { useEffect, useState } from "react"
 
 function Footer(props) {
 
-    const [theme, setTheme] = useState(
-        localStorage.getItem("theme") ||
-        document.documentElement.dataset.bsTheme || 
-        "light"
-    )
   return (
     <>
-      <div className="container footer_container " data-theme={theme}>
+      <div className="container footer_container " data-theme={props.theme}>
         <div className="row">
             <div className="col-sm-5 footer_left ">
                 <div className="first_row">

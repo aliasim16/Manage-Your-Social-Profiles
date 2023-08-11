@@ -3,20 +3,12 @@ import Navbar from './Navbar'
 import { useEffect, useState } from "react"
 
 function Home(props) {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ||
-    document.documentElement.dataset.bsTheme || 
-    "light"
-)
-const switchTheme = () => {
-  const newTheme = theme === 'light' ? 'dark' : 'light';
-  setTheme(newTheme)
-  localStorage.setItem("theme", newTheme)
-  document.documentElement.dataset.bsTheme = newTheme
-}
+
+
+
   return (
     <>
-    <div className="container home_container" data-theme={theme} >
+    <div className="container home_container" data-theme={props.theme} >
       <div className="row">
         <div className="col-sm" id='home_left_side'>
           <h1>Manage your social media Profil</h1>
@@ -46,7 +38,7 @@ const switchTheme = () => {
           </div>
           {/* dark light button */}
           <div className="button">
-            <input type="checkbox" name="switch" id="toggle" onClick={switchTheme}/> 
+            <input type="checkbox" name="switch" id="toggle" onClick={props.switchTheme}/> 
             <label htmlFor="toggle" id="toggle_label">
               <img id="sun" src="/Images/Home_images/Sun.png" alt="sun.png"/>
               <img id="moon" src="/Images/Home_images/Moon.png" alt="moon.png"/>
