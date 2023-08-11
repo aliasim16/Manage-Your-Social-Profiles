@@ -1,11 +1,13 @@
 import "../components/css/Engagement.css"
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Engagement(props) {
+    const {theme,switchTheme} = useContext(MainContext)
     
   return (
     <>
-    <div className="container engagement_container"data-theme={props.theme} >
+    <div className="container engagement_container"data-theme={theme} >
         <div className="row">
             <div className="row first_row">
                 <div className="col-sm">

@@ -1,14 +1,16 @@
 import "../components/css/Home.css";
 import Navbar from './Navbar'
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Home(props) {
 
+  const {theme,switchTheme} = useContext(MainContext)
 
 
   return (
     <>
-    <div className="container home_container" data-theme={props.theme} >
+    <div className="container home_container" data-theme={theme} >
       <div className="row">
         <div className="col-sm" id='home_left_side'>
           <h1>Manage your social media Profil</h1>
@@ -38,7 +40,7 @@ function Home(props) {
           </div>
           {/* dark light button */}
           <div className="button">
-            <input type="checkbox" name="switch" id="toggle" onClick={props.switchTheme}/> 
+            <input type="checkbox" name="switch" id="toggle" onClick={switchTheme}/> 
             <label htmlFor="toggle" id="toggle_label">
               <img id="sun" src="/Images/Home_images/Sun.png" alt="sun.png"/>
               <img id="moon" src="/Images/Home_images/Moon.png" alt="moon.png"/>

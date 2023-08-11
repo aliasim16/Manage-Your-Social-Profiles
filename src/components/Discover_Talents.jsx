@@ -1,14 +1,14 @@
 import "../components/css/Discover_Talents.css"
 import { useEffect, useState } from "react"
-
+import { MainContext,useContext } from "./context/context"
 
 function Discover_Talents(props) {
     
-    
+    const {theme,switchTheme} = useContext(MainContext)
 
   return (
     <>
-      <div className="container discover_talents_container " data-theme={props.theme}>
+      <div className="container discover_talents_container " data-theme={theme}>
         <div className="row">
             <div className=" col-sm discover_talents_header">
                 <h1>

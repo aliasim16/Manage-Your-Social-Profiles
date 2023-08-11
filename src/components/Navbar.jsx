@@ -1,13 +1,16 @@
 import React from "react";
 import "../components/css/Navbar.css";
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Navbar(props) {
+
+  const {theme,switchTheme} = useContext(MainContext)
 
   return (
     <>
       <nav>
-        <div className="container navbar_container " data-theme={props.theme}>
+        <div className="container navbar_container " data-theme={theme}>
           <div className="row navbar_row ">
           <div className="col-sm-1 logo">
             <img src="Images\Home_images\a2f7081c7320309befdbd8aec1409786.png" alt="" />

@@ -1,11 +1,14 @@
 import "../components/css/Footer.css"
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Footer(props) {
 
+    const {theme,switchTheme} = useContext(MainContext)
+
   return (
     <>
-      <div className="container footer_container " data-theme={props.theme}>
+      <div className="container footer_container " data-theme={theme}>
         <div className="row">
             <div className="col-sm-5 footer_left ">
                 <div className="first_row">

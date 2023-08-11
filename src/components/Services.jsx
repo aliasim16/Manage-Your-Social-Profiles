@@ -1,11 +1,13 @@
 import "../components/css/Services.css";
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Services(props) {
     
+    const {theme} = useContext(MainContext)
   return (
     <>
-        <div className="container services_container "data-theme={props.Servicestheme} >
+        <div className="container services_container " data-theme= {theme} >
             <div className="row">
                 <div className="col-sm">
                     <div className="row services_left_side">

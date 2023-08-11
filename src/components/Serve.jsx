@@ -1,12 +1,14 @@
 import "../components/css/Serve.css"
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Serve(props) {
     
+    const {theme,switchTheme} = useContext(MainContext)
   return (
     
     <>
-    <div className="container serve_container "data-theme={props.theme} >
+    <div className="container serve_container "data-theme={theme} >
         <div className="row">
         <div className="col-sm serve_header">
             <h1>

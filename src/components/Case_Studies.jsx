@@ -1,11 +1,13 @@
 import "../components/css/Case_Studies.css"
 import { useEffect, useState } from "react"
+import { MainContext,useContext } from "./context/context"
 
 function Case_Studies(props) {
-    
+    const {theme,switchTheme} = useContext(MainContext)
+
   return (
     <>
-        <div className="container case_studies_contianer"  data-theme={props.theme}>
+        <div className="container case_studies_contianer"  data-theme={theme}>
             <div className="row">
                 <div className="row">
                     <div className="col-sm case_studies_text "  >

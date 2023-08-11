@@ -1,12 +1,12 @@
 import "../components/css/Channels.css"
 import { useEffect, useState } from "react"
-
+import { MainContext,useContext } from "./context/context"
 function Channels(props) {
-  
+  const {theme,switchTheme} = useContext(MainContext)
 
   return (
     <>
-      <div className="container channels_container " data-theme={props.theme} >
+      <div className="container channels_container " data-theme={theme} >
         <div className="row">
           <div className="col-sm channels_header">
               <div className="header_h1">
