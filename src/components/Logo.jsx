@@ -1,6 +1,6 @@
-import "../components/css/Logo.css";
+import "../css/Logo.css";
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Logo(props) {
 

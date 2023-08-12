@@ -1,6 +1,6 @@
-import "../components/css/Rectangle.css"
+import "../css/Rectangle.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Rectangle(props) {
 

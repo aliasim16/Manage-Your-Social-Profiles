@@ -1,6 +1,6 @@
-import "../components/css/Engagement.css"
+import "../css/Engagement.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Engagement(props) {
     const {theme,switchTheme} = useContext(MainContext)

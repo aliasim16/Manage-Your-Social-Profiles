@@ -1,7 +1,8 @@
 import React from "react";
-import "../components/css/Navbar.css";
+import "../css/Navbar.css";
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
 
@@ -18,10 +19,10 @@ function Navbar(props) {
           <div className="col-sm-9 middle_section">
               <nav>
                 <ul>
-                  <li> <a id="home"  href="#">Home</a> </li>
-                  <li> <a id="services" href="#">Services</a> </li>
-                  <li> <a id="case-studies" href="#">Case Studies</a> </li>
-                  <li> <a id="about-us" href="#">About Us</a> </li>
+                  < Link to="/"><li> <a id="home"  href="#">Home</a> </li> </Link>
+                  < Link to="services" ><li> <a id="services" href="#">Services</a> </li></Link>
+                  < Link to="case-studies" ><li> <a id="case-studies" href="#">Case Studies</a> </li></Link>
+                  < Link to="About-us"><li> <a id="about-us" href="#">About Us</a> </li></Link>
                 </ul>
               </nav>
           </div>

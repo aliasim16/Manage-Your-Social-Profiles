@@ -1,6 +1,6 @@
-import "../components/css/Footer.css"
+import "../css/Footer.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Footer(props) {
 

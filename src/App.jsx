@@ -1,3 +1,4 @@
+import { Route,Routes } from 'react-router-dom';
 import React, { useState } from 'react'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -11,8 +12,9 @@ import Case_Studies from './components/Case_Studies';
 import Engagement from './components/Engagement';
 import Rectangle from './components/Rectangle';
 import Footer from './components/Footer';
-import "./components/context/context"
-import { MainContext } from './components/context/context';
+import "./context/context"
+import { MainContext } from './context/context';
+
 
 function App() {
   
@@ -37,6 +39,14 @@ function App() {
   return (
     <MainContext.Provider value={data}>
     <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/case-studies" element={<Case_Studies/>}/>
+      <Route path="/About-us" element={<Discover_Talents/>}/>
+    </Routes>
+    <Footer/>
+    {/* <Navbar/>
     <Home/>
     <Logo/>
     <Services/>
@@ -47,7 +57,7 @@ function App() {
     <Case_Studies/>
     <Engagement/>
     <Rectangle/>
-    <Footer/>
+    <Footer/> */}
 
     </MainContext.Provider>
   )

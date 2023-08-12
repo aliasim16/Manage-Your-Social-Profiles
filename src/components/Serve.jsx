@@ -1,6 +1,6 @@
-import "../components/css/Serve.css"
+import "../css/Serve.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Serve(props) {
     

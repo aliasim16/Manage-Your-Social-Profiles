@@ -1,6 +1,6 @@
-import "../components/css/Case_Studies.css"
+import "../css/Case_Studies.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Case_Studies(props) {
     const {theme,switchTheme} = useContext(MainContext)

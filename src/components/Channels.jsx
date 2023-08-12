@@ -1,6 +1,6 @@
-import "../components/css/Channels.css"
+import "../css/Channels.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 function Channels(props) {
   const {theme,switchTheme} = useContext(MainContext)
 

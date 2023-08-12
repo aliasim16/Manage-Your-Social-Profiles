@@ -1,6 +1,6 @@
-import "../components/css/Services.css";
+import "../css/Services.css";
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Services(props) {
     

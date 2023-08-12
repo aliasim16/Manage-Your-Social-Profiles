@@ -1,6 +1,6 @@
-import "../components/css/Discover_Talents.css"
+import "../css/Discover_Talents.css"
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Discover_Talents(props) {
     

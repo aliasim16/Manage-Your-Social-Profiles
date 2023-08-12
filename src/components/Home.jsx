@@ -1,7 +1,7 @@
-import "../components/css/Home.css";
+import "../css/Home.css";
 import Navbar from './Navbar'
 import { useEffect, useState } from "react"
-import { MainContext,useContext } from "./context/context"
+import { MainContext,useContext } from "../context/context"
 
 function Home(props) {
 
