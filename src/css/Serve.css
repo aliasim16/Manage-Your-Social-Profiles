@@ -4,7 +4,7 @@
     --header-background-green:#E2F5D8;
     --header-green: #A0CB8A;
     --header:#2A3126;
-    --lightTheme-black-header:#2A3126;
+    --lightTheme-header:#2A3126;
     --paragraph:#757A72;
     --button-background:#E2F1FF;
     --blue_box:#357EC7;
@@ -32,7 +32,7 @@
     text-transform: capitalize;
 }
 .serve_header h1 {
-    color: var(--lightTheme-black-header);
+    color: var(--lightTheme-header);
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 30px;

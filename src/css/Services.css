@@ -75,7 +75,7 @@
 .services_right_side button{
     border-radius: 90px;
     background: var(--button-background);
-    color: var(--header);
+    color: var(--lightTheme-header);
     font-weight: 600;
     font-size: 18px;
     border: none;
@@ -84,8 +84,9 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
 }
+
+
 .services_right_side button .blue_box {
     width: 12px;
     height: 12px;

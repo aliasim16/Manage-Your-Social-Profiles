@@ -118,6 +118,8 @@
     margin-top: 29px;
 }
 
+
+
 .bottom .left_div button {
     border-radius: 90px;
     background: var(--button-background);
@@ -131,6 +133,14 @@
     align-items: center;
     gap: 10px;
 }
+
+.bottom .left_div #blue_box{
+    width: 12px;
+    height: 12px;
+    background-color: #357EC7;
+}
+
+
 .bottom .right_div h1 {
     color: var(--button-background);
     font-weight: 600;

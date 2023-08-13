@@ -35,7 +35,7 @@
     
 }
 .discover_talents_header h1{
-    color: var( --lightTheme-header);
+    color: var(--lightTheme-header);
     font-size: 34px;
     font-weight: 700;
 }
@@ -72,12 +72,14 @@
 }
 
 .talents_column h1{
+    color:var(--header);
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
 .talents_column p {
+    color: var(--paragraph);
     font-size:18px;
     font-weight: 400;
     margin-bottom: 75px;

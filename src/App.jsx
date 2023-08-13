@@ -38,15 +38,15 @@ function App() {
 
   return (
     <MainContext.Provider value={data}>
-    <Navbar/>
+    {/* <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/services" element={<Services/>}/>
       <Route path="/case-studies" element={<Case_Studies/>}/>
       <Route path="/About-us" element={<Discover_Talents/>}/>
     </Routes>
-    <Footer/>
-    {/* <Navbar/>
+    <Footer/> */}
+    <Navbar/>
     <Home/>
     <Logo/>
     <Services/>
@@ -57,7 +57,7 @@ function App() {
     <Case_Studies/>
     <Engagement/>
     <Rectangle/>
-    <Footer/> */}
+    <Footer/>
 
     </MainContext.Provider>
   )

@@ -33,7 +33,7 @@ function Case_Studies(props) {
                         <div className="white_box ">
                             <div className="items">
                                 <div className="tiktok_div">
-                                    <img src="Images\Case_Studies\First Column\Tiktok.png" alt="tiktok_png" />
+                                    <img src="/Images\Case_Studies\First Column\Tiktok.png" alt="tiktok_png" />
                                 </div>
                                 <div className="twitch_div">
                                     <img src="Images\Case_Studies\First Column\Twitch.png" alt="twitch_png" />
