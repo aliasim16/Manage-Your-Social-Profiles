@@ -42,8 +42,8 @@ function Home(props) {
           <div className="button">
             <input type="checkbox" name="switch" id="toggle" onClick={switchTheme}/> 
             <label htmlFor="toggle" id="toggle_label">
-              <img id="sun" src="//src/Images/Home_images/Sun.png" alt="sun.png"/>
-              <img id="moon" src="//src/Images/Home_images/Moon.png" alt="moon.png"/>
+              <img id="sun" src="/src/Images/Home_images/Sun.png" alt="sun.png"/>
+              <img id="moon" src="/src/Images/Home_images/Moon.png" alt="moon.png"/>
             </label>
           </div>
           <div className="blur">
