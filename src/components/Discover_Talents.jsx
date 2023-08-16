@@ -26,7 +26,7 @@ function Discover_Talents(props) {
                 <div className="container">
                     <div className="row">
                         <div className="image col-sm">
-                            <img src="Images/Discover_Talents/Left_col-image.png" alt="Caster_image" />
+                            <img src="/src/Images/Discover_Talents/Left_col-image.png" alt="Caster_image" />
                         </div>
                         <div className="col-sm text">
                             <h1>
@@ -51,7 +51,7 @@ function Discover_Talents(props) {
                 <div className="container ">
                     <div className="row">
                         <div className="image col-sm">
-                            <img src="/Images/Discover_Talents/Right_col_image .png" alt="Caster_image" />
+                            <img src="/src/Images/Discover_Talents/Right_col_image .png" alt="Caster_image" />
                         </div>
                         <div className="col-sm text">
                             <h1>

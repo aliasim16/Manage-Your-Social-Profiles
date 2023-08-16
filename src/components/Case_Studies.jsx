@@ -33,27 +33,27 @@ function Case_Studies(props) {
                         <div className="white_box ">
                             <div className="items">
                                 <div className="tiktok_div">
-                                    <img src="Images/Case_Studies/First Column/Tiktok.png" alt="tiktok_png" />
+                                    <img src="src/Images/Case_Studies/First Column/Tiktok.png" alt="tiktok_png" />
                                 </div>
                                 <div className="twitch_div">
-                                    <img src="Images/Case_Studies/First Column/Twitch.png" alt="twitch_png" />
+                                    <img src="/src/Images/Case_Studies/First Column/Twitch.png" alt="twitch_png" />
                                 </div>
                                 <div className="snapchat_div">
-                                    <img src="Images/Case_Studies/First Column/Snapchat.png" alt="twitch_png" />
+                                    <img src="/src/Images/Case_Studies/First Column/Snapchat.png" alt="twitch_png" />
                                 </div>
                                 <div className="plus_div">
-                                    <img src="Images/Case_Studies/First Column/Plus.png" alt="twitch_png" />
+                                    <img src="/src/Images/Case_Studies/First Column/Plus.png" alt="twitch_png" />
                                 </div>
                             </div>
                         </div>
                         <div className="blue_items_box">
-                            <img src="Images/Case_Studies/First Column/radar.png" />
+                            <img src="/src/Images/Case_Studies/First Column/radar.png" />
                         </div>
                     </div>
                     <div className="col-sm case_studies_col-1 case_studies_col ">
                         <div className="first_box"></div>
                         <div className="white_box">
-                            <img src="Images/Case_Studies/Second Column/Rectangle 5555.png" />
+                            <img src="/src/Images/Case_Studies/Second Column/Rectangle 5555.png" />
                         </div>
                         <div className="tic_box">
                             <div className="outside_line">
@@ -65,20 +65,20 @@ function Case_Studies(props) {
                                 <circle cx="36.5" cy="37.1099" r="36" stroke="#E2F1FF"/>
                                 </svg>
                                     <div className="tic_img">
-                                        <img src="Images/Case_Studies/Second Column/tic.png" alt="tic_image" />
+                                        <img src="/src/Images/Case_Studies/Second Column/tic.png" alt="tic_image" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="blue_items_box">
-                            <img src="Images/Case_Studies/Second Column/security-safe.png" />
+                            <img src="/src/Images/Case_Studies/Second Column/security-safe.png" />
                         </div>
                     </div>
                     <div className="col-sm case_studies_col-2 case_studies_col ">
                         <div className="first_box"></div>
                         <div className="white_box white_box_2  ">
                             <div className="white_box_left">
-                                <img src="Images/Case_Studies/Third Column/purple rectangle.png" alt="" />
+                                <img src="/src/Images/Case_Studies/Third Column/purple rectangle.png" alt="" />
                             </div>
                             <div className="white_box_right">
                                 <div className="box_1"></div>
@@ -87,10 +87,10 @@ function Case_Studies(props) {
                             </div>
                         </div>
                         <div className="blue_items_box">
-                            <img src="Images/Case_Studies/Third Column/favorite-chart.png"  />
+                            <img src="/src/Images/Case_Studies/Third Column/favorite-chart.png"  />
                         </div>
                         <div className="star">
-                            <img src="Images/Case_Studies/Third Column/Star.png"  />
+                            <img src="/src/Images/Case_Studies/Third Column/Star.png"  />
                         
                         </div>
                     </div>

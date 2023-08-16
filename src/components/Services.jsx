@@ -12,10 +12,10 @@ function Services(props) {
                 <div className="col-sm">
                     <div className="row services_left_side ">
                         <div className="col-sm orange_img ">
-                            <img  src="Images/Services_images/Rectangle 5533.png" alt="Orange.png" />
+                            <img  src="/src/Images/Services_images/Rectangle 5533.png" alt="Orange.png" />
                         </div>
                         <div className="col-sm my-3 instagram_img ">
-                            <img src="Images/Services_images/Instagram.png" alt="Instagram_logo"  />
+                            <img src="/src/Images/Services_images/Instagram.png" alt="Instagram_logo"  />
                         </div>
                     </div>
                 </div>

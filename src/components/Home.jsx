@@ -24,10 +24,10 @@ function Home(props) {
           </div>
         </div>
         <div className="col-sm " id='home_right_side' >
-          <img src="Images/Home_images/HomePageWoman.png" alt="Woman" />
+          <img src="/src/Images/Home_images/HomePageWoman.png" alt="Woman" />
           <div className="heart_div">
             <div className="pink_circle">
-              <img src="Images/Home_images/Heart.png" alt="" />
+              <img src="/src/Images/Home_images/Heart.png" alt="" />
             </div>
               <h1>13.9k</h1>
             <div className="heart_row">
@@ -42,14 +42,14 @@ function Home(props) {
           <div className="button">
             <input type="checkbox" name="switch" id="toggle" onClick={switchTheme}/> 
             <label htmlFor="toggle" id="toggle_label">
-              <img id="sun" src="/Images/Home_images/Sun.png" alt="sun.png"/>
-              <img id="moon" src="/Images/Home_images/Moon.png" alt="moon.png"/>
+              <img id="sun" src="//src/Images/Home_images/Sun.png" alt="sun.png"/>
+              <img id="moon" src="//src/Images/Home_images/Moon.png" alt="moon.png"/>
             </label>
           </div>
           <div className="blur">
             <div className="blur_table">
             <div className="blur_yellow_circle">
-              <img src="Images/Home_images/chart.png"  />
+              <img src="/src/Images/Home_images/chart.png"  />
             </div>
             </div>
             <div className="blur_text">

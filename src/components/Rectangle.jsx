@@ -11,16 +11,16 @@ function Rectangle(props) {
         <div className="row rectangle">
             <div className="col-sm-3">
                 <div className="object_1">
-                    <img src="Images/Footer/blue_object.png"  />
+                    <img src="/src/Images/Footer/blue_object.png"  />
                 </div>
                 <div className="object_2">
-                    <img src="Images/Footer/white_object.png"/>
+                    <img src="/src/Images/Footer/white_object.png"/>
                 </div>
                 <div className="object_3">
-                    <img src="Images/Footer/light_blue_object.png" />
+                    <img src="/src/Images/Footer/light_blue_object.png" />
                 </div>
                 <div className="twitter">
-                    <img src="Images/Footer/twitter.png" alt="Twitter.png" />
+                    <img src="/src/Images/Footer/twitter.png" alt="Twitter.png" />
                     
                 </div>
 
@@ -39,18 +39,18 @@ function Rectangle(props) {
                 </div>
 
                 <div className="object_4">
-                    <img src="Images/Footer/light_green_object.png"/>
+                    <img src="/src/Images/Footer/light_green_object.png"/>
                 </div>
             </div>
             <div className="col-sm-3">
                 <div className="object_5">
-                    <img src="Images/Footer/light_yellow.png" />
+                    <img src="/src/Images/Footer/light_yellow.png" />
                 </div>
                 <div className="object_6">
-                    <img src="Images/Footer/yellow.png"  />
+                    <img src="/src/Images/Footer/yellow.png"  />
                 </div>
                 <div className="instagram">
-                    <img src="Images/Footer/Instagram.png" alt="Instagram.png" />
+                    <img src="/src/Images/Footer/Instagram.png" alt="Instagram.png" />
                 </div>
 
             </div>

@@ -21,17 +21,17 @@ function Footer(props) {
                 </div>
             </div>
             <div className="col-sm-2 footer_middle ">
-                <img src="Images/Footer/Footer/Footer_logo.png" />
+                <img src="/src/Images/Footer/Footer/Footer_logo.png" />
             </div>
             <div className="col-sm-5 footer_right ">
                 <div className="first_row">
-                    <img src="Images/Footer/Footer/Facebook.png"/>
-                    <img src="Images/Footer/Footer/Twitter.png"/>
-                    <img src="Images/Footer/Footer/Instagram.png"/>
-                    <img src="Images/Footer/Footer/Tiktok.png"/>
-                    <img src="Images/Footer/Footer/Linledin.png"/>
+                    <img src="/src/Images/Footer/Footer/Facebook.png"/>
+                    <img src="/src/Images/Footer/Footer/Twitter.png"/>
+                    <img src="/src/Images/Footer/Footer/Instagram.png"/>
+                    <img src="/src/Images/Footer/Footer/Tiktok.png"/>
+                    <img src="/src/Images/Footer/Footer/Linledin.png"/>
                     <div className="youtube_div">
-                        <img src="Images/Footer/Footer/Youtube.png"/>
+                        <img src="/src/Images/Footer/Footer/Youtube.png"/>
                     </div>
                 </div>
                 <div className="second_row"></div>

@@ -23,7 +23,7 @@ function Engagement(props) {
                             </div>
                             <div className="right_side">
                                 <div className="eye">
-                                    <img src="Images/Engagement/eye.png" alt="eye.png" />
+                                    <img src="/src/Images/Engagement/eye.png" alt="eye.png" />
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ function Engagement(props) {
                             </div>
                             <div className="right_side">
                                 <div className="project">
-                                    <img src="Images/Engagement/clipboard-tick.png" alt="clipboard-tick.png" />
+                                    <img src="/src/Images/Engagement/clipboard-tick.png" alt="clipboard-tick.png" />
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Engagement(props) {
                             </div>
                             <div className="right_side">
                                 <div className="briefcase">
-                                    <img src="Images/Engagement/briefcase.png" alt="briefcase.png" />
+                                    <img src="/src/Images/Engagement/briefcase.png" alt="briefcase.png" />
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ function Engagement(props) {
                             </div>
                             <div className="right_side">
                                 <div className="people">
-                                    <img src="Images/Engagement/people.png" alt="people.png" />
+                                    <img src="/src/Images/Engagement/people.png" alt="people.png" />
                                 </div>
                             </div>
                         </div>
