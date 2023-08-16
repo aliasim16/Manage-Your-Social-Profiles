@@ -10,12 +10,12 @@ function Services(props) {
         <div className="container services_container " data-theme= {theme} >
             <div className="row">
                 <div className="col-sm">
-                    <div className="row services_left_side">
+                    <div className="row services_left_side ">
                         <div className="col-sm orange_img ">
-                            <img src="Images\Services_images\Rectangle 5533.png" alt="Orange.png" />
+                            <img  src="Images/Services_images/Rectangle 5533.png" alt="Orange.png" />
                         </div>
-                        <div className="col-sm instagram_img ">
-                            <img src="Images\Services_images\Instagram.png" alt="Instagram_logo"  />
+                        <div className="col-sm my-3 instagram_img ">
+                            <img src="Images/Services_images/Instagram.png" alt="Instagram_logo"  />
                         </div>
                     </div>
                 </div>

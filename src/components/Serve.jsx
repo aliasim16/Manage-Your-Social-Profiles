@@ -38,7 +38,7 @@ function Serve(props) {
             <div className="col-sm-6">
                 <div className="serve_image">
                     <div className="yellow_div">
-                        <img src="Images\Serve\people.png" alt="People" />
+                        <img src="Images/Serve/people.png" alt="People" />
                         <div className="circle">
                             <img src="/Images/Serve/Send.png" alt="send.png" />
                         </div>

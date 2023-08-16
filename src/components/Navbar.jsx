@@ -14,7 +14,7 @@ function Navbar(props) {
         <div className="container navbar_container " data-theme={theme}>
           <div className="row navbar_row ">
           <div className="col-sm-1 logo">
-            <img src="Images\Home_images\a2f7081c7320309befdbd8aec1409786.png" alt="" />
+            <img src="Images/Home_images/a2f7081c7320309befdbd8aec1409786.png" alt="" />
           </div>
           <div className="col-sm-9 middle_section">
               <nav>
@@ -29,7 +29,7 @@ function Navbar(props) {
           <div className=" col-sm-2 buttons-section">
             <div className="language">
               <div className="icon">
-                <img src="Images\Home_images\languages 1.png" />
+                <img src="Images/Home_images/languages 1.png" />
               </div>
               
             </div>

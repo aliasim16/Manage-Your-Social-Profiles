@@ -24,10 +24,10 @@ function Home(props) {
           </div>
         </div>
         <div className="col-sm " id='home_right_side' >
-          <img src="Images\Home_images\HomePageWoman.png" alt="Woman" />
+          <img src="Images/Home_images/HomePageWoman.png" alt="Woman" />
           <div className="heart_div">
             <div className="pink_circle">
-              <img src="Images\Home_images\Heart.png" alt="" />
+              <img src="Images/Home_images/Heart.png" alt="" />
             </div>
               <h1>13.9k</h1>
             <div className="heart_row">
@@ -49,7 +49,7 @@ function Home(props) {
           <div className="blur">
             <div className="blur_table">
             <div className="blur_yellow_circle">
-              <img src="Images\Home_images\chart.png"  />
+              <img src="Images/Home_images/chart.png"  />
             </div>
             </div>
             <div className="blur_text">
